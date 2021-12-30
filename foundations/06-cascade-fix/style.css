@@ -8,20 +8,19 @@ body{
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+p.small-para {
+  font-size: 12px;
 }
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -35,8 +34,15 @@ body{
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+=======
+div {
+  color: green;
+  font-size: 28px;
+}
+>>>>>>> f371032 (Add fundations/06 solution)
