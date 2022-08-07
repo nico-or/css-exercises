@@ -26,6 +26,16 @@
 .header {
   background-color: #393f4d;
   grid-area: header;
+  display: grid;
+  grid-template-columns: 25% 1fr;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
+  justify-items: center;
+  align-items: center;
 }
 
 .menu ul,
