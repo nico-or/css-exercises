@@ -46,6 +46,9 @@
 .sidebar {
   background-color: #FF7755;
   grid-area: sidebar;
+  display: grid;
+  gap: 50px;
+  align-items: center;
 }
 
 .sidebar .photo {
